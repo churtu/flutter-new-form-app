@@ -29,7 +29,7 @@ class _Scaffold extends StatelessWidget {
         ),
         actions: [
           IconButton(
-              onPressed: () => counterBloc.add(OnReset()),
+              onPressed: () => counterBloc.add(OnResetEvent()),
               icon: const Icon(Icons.refresh_rounded))
         ],
       ),
