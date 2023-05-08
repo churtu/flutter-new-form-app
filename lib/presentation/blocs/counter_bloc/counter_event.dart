@@ -8,4 +8,4 @@ class OnIncreaseByEvent extends CounterEvent {
   OnIncreaseByEvent(this.value);
 }
 
-class OnReset extends CounterEvent {}
+class OnResetEvent extends CounterEvent {}
